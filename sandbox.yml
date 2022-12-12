@@ -1,5 +1,7 @@
 name: energy-network
 
+provider: OpenStack
+
 hosts:
   - name: smart-meter
     base_box:
@@ -15,7 +17,7 @@ hosts:
 
 routers:
   - name: router
-    cidr: 10.10.10.0/24
+    cidr: 100.100.100.0/29
     base_box:
       image: debian-9-x86_64
       man_user: debian
