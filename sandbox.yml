@@ -15,7 +15,7 @@ hosts:
 
 routers:
   - name: router
-    cidr: 10.10.0.0/16
+    cidr: 10.10.10.0/24
     base_box:
       image: debian-9-x86_64
       man_user: debian
